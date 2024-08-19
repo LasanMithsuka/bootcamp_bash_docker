@@ -7,8 +7,8 @@ app = Flask(__name__)
 def get_snowflake_connection():
     conn = snowflake.connector.connect(
         user='MITHSU',
-        password='1lasa2baba',
-        account='AF36645',
+        password='1Lasa2baba',
+        account='iykcljg-af36645',
         warehouse='COMPUTE_WH',
         database='SYSTEM_SERVICES',
         schema='ELASTICSEARCH'
